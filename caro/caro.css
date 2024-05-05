@@ -1,0 +1,43 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 2px;
+    /* padding-left: 800px; */
+  justify-content: center;
+    /* margin-top: 20px; */
+    
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: #008ce9;
+  }
+  
+  .winner {
+    background-color: rgb(255, 0, 0);
+  }
+  
+  #game-status {
+    text-align: center;
+  }
+  
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
